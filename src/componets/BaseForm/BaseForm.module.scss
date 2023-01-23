@@ -1,0 +1,25 @@
+@use 'src/assets/styles/base';
+@import 'src/assets/styles/extends';
+
+.container {
+  display: flex;
+  gap:5px;
+
+  input {
+    border: none;
+    border-radius:10px;
+    //font-style: italic;
+    padding: 5px;
+    background: rgba(0, 0, 0, 0.5);
+    color: base.$color;
+  }
+
+  button {
+    @extend %display_flex;
+    width: 30px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.5);
+  }
+}

@@ -1,0 +1,10 @@
+@use "base";
+
+// header-fonts
+
+@mixin header_fonts($spacing,$size) {
+  font-family: base.$header_font;
+  letter-spacing: $spacing;
+  font-size: $size;
+  color: base.$header_color;
+}

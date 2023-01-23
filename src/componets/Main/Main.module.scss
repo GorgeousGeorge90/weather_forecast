@@ -1,0 +1,21 @@
+@use '../../assets/styles/base';
+@import '../../assets/styles/extends';
+
+.container {
+  width: base.$width_container;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: base.$main_height;
+
+    .card {
+      @extend %display_flex;
+      font-family: base.$font;
+      width: base.$width_card;
+      height: base.$height_card;
+      border: none;
+      border-radius: 25px;
+      background-color: rgba(0, 0, 0, 0.4);
+      color: base.$color;
+    }
+}

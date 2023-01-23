@@ -1,0 +1,22 @@
+@use 'src/assets/styles/base';
+@import 'src/assets/styles/extends';
+
+
+.container {
+  @extend %display_flex;
+  width: base.$width_description;
+  height: base.$height_description;
+
+  ul {
+    list-style: none;
+    padding: 0;
+
+    li {
+      padding-top: 5px;
+    }
+  }
+
+  h3 {
+    text-align: center;
+  }
+}
