@@ -1,20 +1,25 @@
-# Getting Started with Create React App
+## Weather Forecast
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![pic](src/assets/img/logo.png)
 
-## Available Scripts
+### Description
 
-In the project directory, you can run:
+Simple SPA will help you to check the weather!
 
-### `npm start`
+### Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- HTML;
+- CSS/SCSS;
+- TypeScript;
+- React JS;
+- Redux(RTK)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Contacts
 
-### `npm test`
+For feedback:`Gambit47@yandex.ru`<br>
+Deployed:https://gorgeousgeorge90.github.io/weather_forecast/
+
+
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
