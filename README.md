@@ -8,11 +8,11 @@ Simple SPA will help you to check the weather!
 
 ### Tech Stack
 
-- HTML;
-- CSS/SCSS;
-- TypeScript;
-- React JS;
-- Redux(RTK)
+* [x] HTML;
+* [x] CSS/SCSS;
+* [x] TypeScript;
+* [x] React JS;
+* [x] Redux(RTK)
 
 ### Contacts
 
